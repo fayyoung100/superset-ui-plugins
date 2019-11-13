@@ -1,0 +1,39 @@
+{
+  "name": "@superset-ui/legacy-plugin-chart-echarts-stack",
+  "version": "1.0.1",
+  "description": "superset echarts stack viz",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fayyoung100/superset-ui-plugins.git"
+  },
+  "keywords": [
+    "superset",
+    "echarts"
+  ],
+  "author": "ybma",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fayyoung100/superset-ui-plugins/issues"
+  },
+  "homepage": "https://github.com/fayyoung100/superset-ui-plugins#readme",
+  "peerDependencies": {
+    "@superset-ui/chart": "^0.10.0",
+    "@superset-ui/color": "^0.10.0",
+    "@superset-ui/translation": "^0.10.0"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "echarts": "^4.1.0",
+    "prop-types": "^15.6.2"
+  }
+}
